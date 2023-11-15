@@ -3,4 +3,4 @@
 
 Library created with HTML, CSS and Javascript.
 
-Live demo: Calculator
+Live demo: [Library](https://adnanchowdhury7249.github.io/Project-Library/)
