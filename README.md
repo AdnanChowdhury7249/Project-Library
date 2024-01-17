@@ -2,6 +2,11 @@
 
 This is a library web app that allows you to track and manage your book collection. You can add books with their title, author, number of pages, and mark whether you have read them or not.
 
+## Live demo
+
+Live demo: [Library](https://adnanchowdhury7249.github.io/Project-Library/)
+
+
 ## Features
 
 - Add books to your library
@@ -34,6 +39,3 @@ This is a library web app that allows you to track and manage your book collecti
 4. Your added books will be displayed in the main content area, where you can see the title, author, pages, and mark them as read or not read.
 5. You can remove a book by clicking the "Remove" button on the book card.
 
-## Live demo
-
-Live demo: [Library](https://adnanchowdhury7249.github.io/Project-Library/)
