@@ -2,51 +2,51 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="form-popup " id="myForm">
+  <div class="form-popup " id="myForm">
+  </div>
+  <div class="grid-container">
+    <div class="header">Library</div>
+    <div class="addButton">
+      <button data-open-modal class="addBook">+ Add Book</button>
     </div>
-    <div class="grid-container">
-        <div class="header">Library</div>
-        <div class="addButton">
-            <button data-open-modal class="addBook"> Add Book</button>
-        </div>
-        <dialog data-modal class="modal">
-            <form id="new-book-form">
-                <label for="title"></label>
-                <input type="text" id="title" placeholder="Title" required>
+    <dialog data-modal class="modal">
+      <form id="new-book-form">
+        <label for="title"></label>
+        <input type="text" id="title" placeholder="Title" required>
 
-                <label for="author"> </label>
-                <input type="text" id="author" placeholder="Author" required>
+        <label for="author"> </label>
+        <input type="text" id="author" placeholder="Author" required>
 
-                <label for="pages"></label>
-                <input type="number" id="pages" placeholder="Pages" required>
+        <label for="pages"></label>
+        <input type="number" id="pages" placeholder="Pages" required>
 
-                <label for="read" id="readLabel">Have you read it? </label>
-                <input type="checkbox" id="read">
+        <label for="read" id="readLabel">Have you read it? </label>
+        <input type="checkbox" id="read">
 
 
-                <button type="submit" id="submitBtn" value="Add Book">Add Book</button>
+        <button type="submit" id="submitBtn" value="Add Book">Add Book</button>
 
 
-            </form>
+      </form>
 
-            <button data-close-modal id="modalClose">Close</button>
-        </dialog>
+      <button data-close-modal id="modalClose">Close</button>
+    </dialog>
 
-        <div class="main-content">
-            <div class="bookGrid">
-            </div>
-        </div>
-
-
-
+    <div class="main-content">
+      <div class="bookGrid">
+      </div>
     </div>
+
+
+
+  </div>
 
 
 </body>
