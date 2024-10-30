@@ -39,13 +39,20 @@ input {
   outline: none;
 }
 
+
+
+.bookLogo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+
 .header {
   grid-column-start: 1;
   grid-column-end: 5;
-
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background-color: #fffbfb;
+  color: white;
+  background-color: #1d1d1d;
   display: flex;
   align-items: center;
   justify-content: center;
